@@ -1,0 +1,291 @@
+.html, .body {
+    font-size: 18px;
+}
+.row {
+    display: block;
+
+}
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.left_col {
+    float: left;
+    width: 22%;
+}
+.right_col {
+    float: right;
+    width: 78%;
+}
+p.info {
+    position: absolute;
+    top: 14px;
+    color: #b9bac2;
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: 400;
+}
+
+/* Left Column */
+.left_col .logo {
+    text-decoration: none;
+}
+.left_col .logo:hover {
+    opacity: 0.7;
+}
+
+.left_col .name {
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #7ec5e6;
+    font-size: 20pt;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.left_col .sub {
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #7ec5e6;
+    opacity: 0.6;
+    font-size: 11.6pt;
+    margin-left: 30px;
+}
+.menu {
+    margin-top: 60px;
+}
+.menu a.button {
+    text-decoration: none;
+    color: #3a374e;
+    padding: 15px 0 15px 20px;
+    margin: 10px 10px;
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: left;
+    background-color: white;
+    font-size: 13pt;
+    font-weight: 400;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    width: 60%;
+}
+.menu a.button:hover {
+    background-color: #3a374e;
+    color: white;
+    border: none;
+}
+a.view span.icon {
+    background: url("../image/icon_list_dark.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.view:hover span.icon {
+    background: url("../image/icon_list.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.search span.icon {
+    background: url("../image/icon_search_dark.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.search:hover span.icon {
+    background: url("../image/icon_search.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.add span.icon {
+    background: url("../image/icon_add_dark.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.add:hover span.icon {
+    background: url("../image/icon_add.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.update span.icon {
+    background: url("../image/icon_update_dark.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.update:hover span.icon {
+    background: url("../image/icon_update.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.delete span.icon {
+    background: url("../image/icon_delete_dark.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.delete:hover span.icon {
+    background: url("../image/icon_delete.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.database span.icon {
+    background: url("../image/icon_database_dark.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+a.database:hover span.icon {
+    background: url("../image/icon_database.png") no-repeat;
+    background-size: 20px;
+    background-position-x: 5%;
+    padding-left: 35px;
+}
+
+/* Right Column */
+.right_col .button {
+    background-color: #8e8d96;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Fredoka';
+    font-weight: 300;
+    font-size: 14pt;
+    width: 200px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    margin-right: 5px;
+}
+.right_col .button:hover {
+    background-color: #3a374e;
+}
+.right_col .title {
+    margin-top: 95px;
+    position: relative;
+    display: inline-block;
+}
+.right_col .title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80%;
+    height: 5px;
+    background: #7ec5e6;
+}
+
+/* text */
+h2 {
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #3a374e;
+}
+p.text {
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    line-height: 30%;
+}
+p {
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.part {
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+b {
+    font-weight: 400 !important;
+}
+hr {
+    border: 0.5px solid #dddddd;
+}
+
+/* table */
+table.list {
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-weight: 200;
+    width: 100%;
+}
+table.list thead tr td {
+    background-color: #8e8d96;
+    color: white;
+    padding: 12px 10px;
+}
+table.list tbody tr td {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px 10px;
+    color: #3a374e;
+}
+form table tr td:first-child {
+    width: 170px;
+}
+
+/* form */
+div.bg_gray {
+    background-color: #ededed;
+    border-radius: 10px;
+    padding-right: 35px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 400px;
+}
+form label {
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+input[type=number],input[type=text],input[type=email],select,input[type=date] {
+    border: 1px solid #dddddd;
+    padding: 10px 20px;
+    color: #3a374e;
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+    min-width: 300px;
+    font-size: 12pt;
+    margin: 5px 0;
+}
+input[type=submit],input[type=reset] {
+    background-color: #8e8d96;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-family: 'Fredoka';
+    font-size: 14pt;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input[type=submit]:hover,input[type=reset]:hover {
+    background-color: #3a374e;
+}
+form div.submit {
+    text-align: center;
+}
+input[type=text]::placeholder {
+    color: #dddddd !important;
+}
